@@ -1,0 +1,41 @@
+$primaryFont: "Montserrat", sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $primaryFont;
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.78);
+}
+
+img {
+  vertical-align: top;
+  object-fit: contain;
+}
+
+::selection {
+  background-color: #008ECC;
+  color: #fff;
+}
+
+input::-webkit-search-cancel-button {
+  display: none;
+}
+
+img {
+  user-drag: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
